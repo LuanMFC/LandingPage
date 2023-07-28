@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 
-<body class="d-flex flex-column align-items-center justify-content-center" style="background-image: url('./img/backgroundLp.png'); background-repeat: no-repeat; background-size: cover; height: 100vh;">
-        <form action="" class="form-group container-md p-4 bg-dark text-white rounded">
-            <div class="img d-flex align-i justify-content-center"><img src="./img/logoOneBitDark.png" alt="" class="w-50"></div>
-            <div class="question1">
+<body class="d-flex flex-column align-items-center justify-content-center container" style="background-image: url('./img/backgroundLp.png'); background-repeat: no-repeat; background-size: cover; height: 100vh;">
+        <form action="" class="container bg-dark text-white rounded p-3" style="max-width: 450px;">
+            <div class="img d-flex align-i justify-content-center m-2"><img src="./img/logoOneBitDark.png" alt="" class="w-50"></div>
+            <div class="question1 container-fluid">
                 <p class="m-2">1 - Qual seu nome?</p>
                 <div class="input-group mb-3" >
                     <span class="input-group-text">Primeiro Nome:</span>
@@ -27,7 +27,7 @@
                 </div>
             </div>
 
-            <div class="question2">
+            <div class="question2 container-fluid">
                 <p class="m-2">2 - Qual seu gênero?</p>
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="Radios" id="RadiosMan" value="homem">
@@ -51,7 +51,7 @@
                 </div>
             </div>
 
-            <div class="question3">
+            <div class="question3 container-fluid">
                 <p class="m-2">3 - Marque os treinamentos que você fez:</p>
                 <div class="form-switch">
                     <input class="form-check-input" type="checkbox" name="TrainerBasic" role="switch" id="TrainerBasic" value=inerBasic">
@@ -82,7 +82,7 @@
                 </div>
             </div>
 
-            <div class="question4">
+            <div class="question4 container-fluid">
                 <p class="m-2">4 - Quais você acha que são suas qualidades?</p>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox">
